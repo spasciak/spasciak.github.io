@@ -1,5 +1,5 @@
 (function() {
-  if (document.cookie.split('; ').some(row => row.startsWith('tou-pp_agreed=true='))) return;
+  if (document.cookie.split('; ').some(row => row.startsWith('tou-pp_agreed='))) return;
 
   // Get the script tag that loaded this file
   const currentScript = document.currentScript || (function() {
