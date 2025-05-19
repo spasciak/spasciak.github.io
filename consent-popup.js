@@ -31,7 +31,7 @@
 
   document.getElementById('agree-btn').onclick = function() {
     const d = new Date();
-    d.setTime(d.getTime() + (3650*24*60*60*1000));
+    d.setTime(d.getTime() + (365*24*60*60*1000));
     document.cookie = "tou-pp_agreed=true; expires=" + d.toUTCString() + "; path=/";
     popup.remove();
   };
